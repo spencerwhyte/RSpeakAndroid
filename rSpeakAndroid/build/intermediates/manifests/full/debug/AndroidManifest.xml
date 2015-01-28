@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rspeak_android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <permission
+        android:name="com.example.rspeak_android.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.rspeak_android.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="com.example.rspeak_android.RSpeakApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/rspeak_logo"
+        android:label="@string/app_name"
+        android:logo="@drawable/rspeak_logo_actionbar"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.rspeak_android.activities.BrowseQuestionsAnswersActivity"
+            android:label="RSpeak" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.rspeak_android.activities.BrowseConversationActivity"
+            android:label="@string/title_activity_browse_conversation" >
+        </activity>
+        <activity
+            android:name="com.example.rspeak_android.activities.AskQuestionActivity"
+            android:label="@string/title_activity_ask_question"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="com.example.rspeak_android.activities.BrowseThreadsActivity"
+            android:label="@string/title_activity_browse_threads" >
+        </activity>
+
+        <receiver
+            android:name="com.example.rspeak_android.gcm.GcmBroadcastReceiver"
+            android:label="NetworkConnection"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.example.rspeak_android" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.example.rspeak_android.gcm.GcmIntentService" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

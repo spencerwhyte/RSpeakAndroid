@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+	    android:id="@+id/pager"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginBottom="72dp"
+	    tools:context="com.example.rspeak_android.activities.BrowseQuestionsAnswersActivity" />
+    
+
+	<LinearLayout
+         android:id="@+id/bottom_action_bar"
+         android:orientation="horizontal"
+         android:layout_width="fill_parent"
+         android:layout_height="48dp"
+         android:layout_marginLeft="0dp"
+         android:layout_marginTop="-48dp"
+         android:background="@color/teal">
+         
+	     <Button
+	         android:id="@+id/ask_button"
+	         android:layout_width="0px"
+	         android:layout_height="match_parent"
+	         android:layout_weight="1"
+	         android:text="@string/button_ask"
+	         style="@style/bottom_action_bar_style" />
+	     
+	     <View
+	         style="@style/vertical_divider" />
+	     
+	     <Button
+	         android:id="@+id/question_magnet_button"
+	         android:layout_width="0px"
+	         android:layout_height="match_parent"
+	         android:layout_weight="1"
+	         android:text="@string/button_question_magnet"
+	         style="@style/bottom_action_bar_style" />
+	     
+     </LinearLayout>
+     
+	<TextView 
+	    android:id="@+id/credit"
+	    android:layout_width="match_parent"
+	    android:layout_height="24dp"
+	    android:layout_marginTop="-72dp"
+	    android:gravity="center"
+	    android:background="@color/teal_dark"
+	    android:textColor="@color/white"
+	    android:textSize="12sp" />
+
+</LinearLayout >

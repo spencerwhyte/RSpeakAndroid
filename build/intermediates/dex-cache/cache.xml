@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/pre-dexed/debug/classes-d2ce025d061d42d0e1243bd18f8edfe78a6825c8.jar" />
+    </item>
+    <item
+        jar="/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/exploded-aar/RSpeakAndroid/volley/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e361654b475cbe9e060284832eaf7f83a1c91c9d">
+        <dex dex="/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/pre-dexed/debug/classes-bc359d5c7ac78ba11adc09b15971f6dbd93b708f.jar" />
+    </item>
+    <item
+        jar="/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/pre-dexed/debug/classes-3651f45f776f7c3e70db6eee7b62d7ab4f322eac.jar" />
+    </item>
+    <item
+        jar="/Users/hashemshawqi/Android_Dev/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-b2f76e8436e0ec54db876cbab96047410b87955c.jar" />
+    </item>
+    <item
+        jar="/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-f0179c5d2b2af5d40bf9136f59a398175a4706f7.jar" />
+    </item>
+    <item
+        jar="/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/pre-dexed/debug/classes-e595c880c9c35d833256acb5f6bdde81a4119337.jar" />
+    </item>
+
+</items>

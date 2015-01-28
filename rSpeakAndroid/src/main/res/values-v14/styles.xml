@@ -1,0 +1,35 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!-- API 14 theme customizations can go here. -->
+		<item name="android:actionBarStyle">@style/RSpeak.ActionBar</item>
+		<item name="android:actionBarTabStyle">@style/RSpeak.ActionBar.Tabs</item>
+		<item name="android:actionBarTabTextStyle">@style/RSpeak.ActionBar.Tabs.Text</item>
+    </style>
+    
+     <style name="RSpeak.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+	    <item name="android:background">@color/teal</item>
+	    <item name="android:backgroundStacked">@color/teal_dark</item>
+	    <item name="android:titleTextStyle">@style/RSpeak.ActionBar.Title</item>
+	</style>
+	
+     <style name="RSpeak.ActionBar.Title" parent="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title">
+     	<item name="android:textColor">@color/white</item>
+     </style>
+     
+	<style name="RSpeak.ActionBar.Tabs" parent="@style/Widget.AppCompat.ActionBar.TabView">
+    	<item name="android:background">@drawable/tab_indicator_ab_</item>
+    </style>
+    
+	<style name="RSpeak.ActionBar.Tabs.Text">
+	    <item name="android:background">@android:color/transparent</item>
+	    <item name="android:textSize">14sp</item>
+	    <item name="android:textColor">@color/white</item>
+	</style>
+     
+</resources>

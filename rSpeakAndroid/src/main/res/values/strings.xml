@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RSpeak</string>
+    <string name="title_section1">Asked</string>
+    <string name="title_section2">Answered</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_ask">Ask</string>
+    <string name="button_question_magnet">Get Questions</string>
+    <string name="title_activity_browse_conversation">Conversation</string>
+    <string name="you_label">YOU</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_ask_question">Question</string>
+    <string name="question_hint">Ask Someone Something</string>
+    <string name="send_question">Send Question</string>
+    <string name="send_reply">Send Reply</string>
+    <string name="title_activity_browse_threads">Threads</string>
+
+</resources>

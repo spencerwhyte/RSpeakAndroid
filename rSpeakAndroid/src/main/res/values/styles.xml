@@ -1,0 +1,76 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="actionBarStyle">@style/RSpeak.ActionBar</item>
+        <item name="actionBarTabStyle">@style/RSpeak.ActionBar.Tabs</item>
+        <item name="actionBarTabTextStyle">@style/RSpeak.ActionBar.Tabs.Text</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="RSpeak.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+	    <item name="background">@color/teal</item>
+	    <item name="backgroundStacked">@color/teal_dark</item>
+	    <item name="titleTextStyle">@style/RSpeak.ActionBar.Title</item>
+	</style>
+	
+    <style name="RSpeak.ActionBar.Title" parent="@style/TextAppearance.AppCompat.Widget.Base.ActionBar.Title">
+    	<item name="android:textColor">@color/white</item>
+    </style>
+    
+    <style name="RSpeak.ActionBar.Tabs" parent="@style/Widget.AppCompat.ActionBar.TabView">
+    	<item name="android:background">@drawable/tab_indicator_ab_</item>
+    </style>
+    
+    <style name="RSpeak.ActionBar.Tabs.Text">
+	    <item name="android:background">@android:color/transparent</item>
+	    <item name="android:textSize">14sp</item>
+	    <item name="android:textColor">@color/white</item>
+	</style>
+    
+    <style name="bottom_action_bar_style">
+     	<item name="android:background">@drawable/bottom_action_bar_button</item>
+     	<item name="android:textColor">@color/white</item>
+     	<item name="android:textSize">16sp</item>
+    </style>
+    
+    <style name="vertical_divider">
+        <item name="android:layout_width">2dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+    
+    <style name="question_line_style">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/teal_dark</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="response_line_style">
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <style name="response_hasnt_reached_server_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/error_red</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="no_response_line_style">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/error_grey</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

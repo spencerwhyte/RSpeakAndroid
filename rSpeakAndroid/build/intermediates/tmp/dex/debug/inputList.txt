@@ -1,0 +1,7 @@
+/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/classes/debug
+/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-b2f76e8436e0ec54db876cbab96047410b87955c.jar
+/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/pre-dexed/debug/classes-bc359d5c7ac78ba11adc09b15971f6dbd93b708f.jar
+/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-f0179c5d2b2af5d40bf9136f59a398175a4706f7.jar
+/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/pre-dexed/debug/classes-e595c880c9c35d833256acb5f6bdde81a4119337.jar
+/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/pre-dexed/debug/classes-d2ce025d061d42d0e1243bd18f8edfe78a6825c8.jar
+/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/build/intermediates/pre-dexed/debug/classes-3651f45f776f7c3e70db6eee7b62d7ab4f322eac.jar

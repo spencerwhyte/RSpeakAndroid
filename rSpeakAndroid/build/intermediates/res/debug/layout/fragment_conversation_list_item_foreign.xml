@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:paddingRight="10dp"
+    android:gravity="left"
+    android:orientation="horizontal" >
+    
+    <View
+	    android:layout_width="8dp"
+	    android:layout_height="fill_parent"
+        android:background="@color/ash_light" />
+    
+	<TextView
+		android:id="@+id/verse"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:background="@color/white" />
+        
+</LinearLayout>
+<!-- From: file:/Users/hashemshawqi/AndroidStudioProjects/RSpeakAndroid/rSpeakAndroid/src/main/res/layout/fragment_conversation_list_item_foreign.xml -->
